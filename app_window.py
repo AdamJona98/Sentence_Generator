@@ -29,7 +29,6 @@ def create_app_window(sentence_props):
             update_label()
 
     def update_label():
-        """Frissíti a címke megjelenítését az aktuális tulajdonságok alapján."""
         sentence_label.config(
             font=(sentence_props.get_font_style(), sentence_props.get_font_size()),
             fg=sentence_props.get_font_color(),
